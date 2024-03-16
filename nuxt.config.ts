@@ -8,4 +8,8 @@ export default defineNuxtConfig({
   cssPath: '~/assets/css/main.css',
     configPath: './tailwind.config.js',
     },
+    app:{
+      baseURL: '/lockin-team-web/',
+      buildAssetsDir: 'assets',
+    }
   })
